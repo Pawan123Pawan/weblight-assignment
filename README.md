@@ -6,16 +6,16 @@ This project implements a small-scale server application for an FMCG commercial 
 
 Clone the repository:
 
-##Install dependencies:
+#Install dependencies:
 npm install
 
-##Set up environment variables:
-PORT=3000
-MONGODB_URI=your mogobd uri
-JWT_SECRET=your_secret_key_here
+#Set up environment variables:
+-PORT=3000
+-MONGODB_URI=your mogobd uri
+-JWT_SECRET=your_secret_key_here
 
 #Usage
-##Start the server:
+-Start the server:
 node index.js
 
 
