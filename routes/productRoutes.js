@@ -48,7 +48,6 @@ router.delete("/product/:pid", deleteProductController);
 //filter product
 router.post("/product-filters", productFiltersController);
 
-
 //product per page or pagination
 router.get("/product-list/:page", productListController);
 
@@ -57,7 +56,5 @@ router.get("/search/:keyword", searchProductController);
 
 //category wise product
 router.get("/product-category/:slug", productCategoryController);
-
-
 
 export default router;
